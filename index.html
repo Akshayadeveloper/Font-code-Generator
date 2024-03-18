@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Font Code Generator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Font Code Generator</h1>
+  <label for="fontSize">Font Size:</label>
+  <input type="range" id="fontSize" min="10" max="100" value="20">
+  <br>
+  <label for="fontStyle">Font Style:</label>
+  <select id="fontStyle">
+    <option value="normal">Normal</option>
+    <option value="italic">Italic</option>
+    <option value="oblique">Oblique</option>
+  </select>
+  <br>
+  <label for="color1">Start Color:</label>
+  <input type="color" id="color1" value="#000000">
+  <label for="color2">End Color:</label>
+  <input type="color" id="color2" value="#ffffff">
+  <br>
+  <button onclick="generateFont()">Generate Font</button>
+  <div id="output"></div>
+<div class="footer">
+<footer><p style="color:#6713d2">&#128150;Powered by<a style="color:blue;"href="https://github.com/Akshayadeveloper"target="_blank">
+   &#128151;Akshaya developer &#128159;</a></p>
+</footer></div>
+<script src="./script.js"></script>  
+
+</body>
+</html>
